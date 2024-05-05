@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sipariş Listesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="menu">
+    <ul>
+        <li><a href="secim.html">Ana Menü</a></li>
+        <li><a href="musteri_ekleme.html">Müşteri Ekleme</a></li>
+        <li><a href="musteri_liste.html">Müşteri Liste</a></li>
+        <li><a href="siparis_ekle.html">Sipariş Ekle</a></li>
+        <li><a href="siparisler.html">Siparişler</a></li>
+    </ul>
+</div>
+<div class="container">
+    <h2>Sipariş Listesi</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Müşteri ID</th>
+            <th>Malın Ağırlığı (kg)</th>
+            <th>Taşıma Fiyatı (TL)</th>
+            <th>Malın İsmi</th>
+            <th>Teslimat Adresi</th>
+            <th>Teslimat Tarihi</th>
+            <th>Teslimat Durumu</th>
+            <th>Tır Takibi</th> <!-- Yeni sütun eklendi -->
+        </tr>
+        </thead>
+        <tbody id="orderList">
+        <tr>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td contenteditable="true"></td>
+            <td><button class="orderButton">Siparişler</button></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
