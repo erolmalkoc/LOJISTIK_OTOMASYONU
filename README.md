@@ -20,4 +20,4 @@ Bu proje, bir lojistik şirketinin operasyonlarını otomatikleştirmek için ge
 ![Ekran görüntüsü 2024-05-06 121741](https://github.com/erolmalkoc/LOJISTIK_OTOMASYONU/assets/168844202/4f7f490a-f6bd-42ed-8248-904897e5f23f)
 
 ## İletişim
-Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen bize e-posta ile ulaşın: barkinemresayar@gmail.com
+Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen bize e-posta ile ulaşın: barkinemresayar@gmail.com , erolmalkoc04@gmail.com
