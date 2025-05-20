@@ -1,23 +1,45 @@
-# Lojistik Otomasyon Uygulaması
-Bu proje, bir lojistik şirketinin operasyonlarını otomatikleştirmek için geliştirilmiş bir uygulamadır. Müşteri siparişlerini almak, müşterileri listelemek, sipariş içeriğini açıklamak, tır takibini yapmak, teslimat rotası bilgilerini vermek ve fatura oluşturmak için kullanılabilir.
-## Nasıl Yaptık?
-- Projemizi yaparken PHP, HTML, CSS, SQL dillerini kullandık.
-- İlk etapta bilgisayarımıza SQL Workbench ve XAMPP uygulamalarını indirdik.
-- SQL ve PHP ile tablolar yaparak veritabanını oluşturduk.
-- HTML ve CSS ile uygulama arayüzünü oluşturduk.
-- Son olarak veritabanı ile arayüzü bağladık.
-## Kullanım Kılavuzu
-- SQL indirme linki: https://dev.mysql.com/downloads/workbench/
-- XAMPP indirme linki: https://www.apachefriends.org/tr/download.html
-- Uygulamamıza giriş yaptığımız link: http://localhost/kodlar/codes/secim.php
-## Uygulamadan Örnekler
-- Otomasyon uygulamamızın arayüzü:
+# 🚚 Lojistik Otomasyon Uygulaması
+
+Bu proje, bir lojistik firmasının operasyonel süreçlerini dijital ortama taşıyarak daha hızlı ve verimli yönetim sağlamayı amaçlar. Uygulama sayesinde müşteri siparişleri kolayca alınabilir, takip edilebilir ve tüm lojistik akış tek bir panelden yönetilebilir.
+
+## ✨ Özellikler
+
+- 🔐 **Giriş Sistemi** – Basit kullanıcı doğrulama ile giriş ekranı.
+- 👤 **Müşteri Yönetimi** – Müşteri ekleme ve listeleme.
+- 📦 **Sipariş Yönetimi** – Sipariş ekleme ve takip.
+- 🚛 **Tır Takibi** – Tırlara ait taşıma süreçlerini izleyebilme.
+- 🧾 **Fatura Oluşturma** – Siparişlere ait faturalandırma işlemleri.
+- 🗺️ **Teslimat Rotası Bilgisi** – Rota detaylarının görüntülenmesi.
+- 📁 **Veritabanı Entegrasyonu** – Tüm işlemler MySQL veritabanına bağlıdır.
+
+## 🛠️ Kullanılan Teknolojiler
+
+| Teknoloji | Açıklama |
+|----------|----------|
+| **PHP** | Backend programlama |
+| **HTML5 & CSS3** | Arayüz tasarımı |
+| **MySQL** | Veritabanı |
+| **XAMPP** | Apache + MySQL lokal sunucu |
+| **phpMyAdmin** | Veritabanı yönetimi |
+
+## 📦 Kurulum Talimatları
+
+1. **Gerekli Araçları Yükle:**
+   - [XAMPP](https://www.apachefriends.org/tr/download.html)
+   - [MySQL Workbench (İsteğe Bağlı)](https://dev.mysql.com/downloads/workbench/)
+
+2. **Projeyi Klonla veya İndir:**
+   ```bash
+   git clone https://github.com/erolmalkoc/LOJISTIK_OTOMASYONU.git
+
+## 🧪 Uygulamadan Örnekler
+- 🔐 Otomasyon uygulamamızın arayüzü:
 
 ![Ekran görüntüsü 2024-05-06 120424](https://github.com/erolmalkoc/LOJISTIK_OTOMASYONU/assets/168844202/7802661c-9cee-47a3-82f3-0a0a0de623ca)
 
-- Otomasyon uygulamamızın ana ekranından giriş yaptıktan sonra örneğin müşteri ekleme sekmemizin görüntüsü:
+- 👤 Otomasyon uygulamamızın ana ekranından giriş yaptıktan sonra örneğin müşteri ekleme sekmemizin görüntüsü:
 
 ![Ekran görüntüsü 2024-05-06 121741](https://github.com/erolmalkoc/LOJISTIK_OTOMASYONU/assets/168844202/4f7f490a-f6bd-42ed-8248-904897e5f23f)
 
-## İletişim
-Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen bize e-posta ile ulaşın: barkinemresayar@gmail.com , erolmalkoc04@gmail.com
+## 📩 İletişim
+Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen bize e-posta ile ulaşın: barkinemresayar@gmail.com
